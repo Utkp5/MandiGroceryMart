@@ -1,0 +1,114 @@
+body
+{
+  background-color: aliceblue;
+  background-blend-mode: color-burn;
+  background-image: url("https://vectorforfree.com/wp-content/uploads/2021/01/Fruits-Seamless-Pattern_vectorforfree.jpg");
+}
+.box
+{
+  border: 2px solid;
+  margin: 2% 34%;
+  border-radius: 10px;
+  height: 29em;
+  width: 26em;
+}
+#button_login
+{
+  width: 24em;
+      margin: 1rem 3rem;
+      padding: 0.5em;
+      border-radius: 24px;
+      color: white;
+      background-color: #04aa6d;
+}
+.text
+{
+  margin-left: 25px;
+}
+input[type="text"]
+{
+    width: 27em;
+    height: 2em;
+    border-radius: 5px;
+    margin-left: 2em;
+    border: 2px solid lightgray;
+}
+.label
+{
+  margin-left: 2em;
+  font-weight: bold;
+}
+span
+{
+  font-size: 12px;
+  margin-left: 43%;
+}
+#spann
+{
+  margin-left: 33%;
+}
+.Signn
+{
+  text-align: -webkit-auto;
+    font-size: 12px;
+    margin-top: -7px;
+    margin-left: 31px
+}
+#box_pas
+{
+  display: inline-block;
+  margin: 0px 10px 0px 33px;
+  color: darkolivegreen;
+}
+#box_passs
+{
+  display: inline-block;
+  margin-left: 26%;
+  color: darkolivegreen;
+}
+h4 {
+display: flex;
+flex-direction: row;
+width: 300px;
+margin: 12px 50px
+  }
+
+h4:before,
+h4:after {
+content: "";
+flex: 1 1;
+border-bottom: 1px solid gray;
+margin: auto;
+}
+.flex_box
+{
+  display: flex;
+  flex-direction: column;
+}
+#button_facebook
+{
+  font-size: 18px;
+  font-family: revert;
+  align-self: center;
+  padding: 4px 30px;
+  letter-spacing: 4px;
+  margin-bottom: 12px;
+}
+#button_twitter
+{
+  font-size: 18px;
+  font-family: revert;
+  align-self: center;
+  padding: 4px 46px;
+  letter-spacing: 4px;
+  margin-bottom: 12px;
+}
+#button_instagram
+{
+  font-size: 18px;
+  font-family: revert;
+  align-self: center;
+  padding: 4px 26px;
+  letter-spacing: 4px;
+  margin-bottom: 12px;
+}

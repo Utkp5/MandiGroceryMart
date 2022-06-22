@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mandi | Shop</title>
+    <link rel="stylesheet" href="F:\HTML\css\shop.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript">
+      function pt() {
+        var b=123456;
+        var a = prompt("Please Enter your pin code");
+        if (a==null) {
+          alert("Please Enter your Pin code")
+        }
+        else if (a.length>6 ||  a.length<=5 || a.length<=4 || a.length<=3 || a.length<=2 || a.length<=1 || a.length<=0) {
+          alert("Please Enter 6 Digit Pin code")
+        }
+        else if (a==0) {
+          alert("Please Enter correct pin code");
+        }
+        else {
+          confirm("Do you wnat to confirm this pin code"+" "+a);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="content">
+      <a href="F:\HTML\index.html"><img src="F:\HTML\img\logo_1.png" class="logo" alt="" width="150" ></a>
+      <nav>
+        <ul>
+          <li ><a href="F:\HTML\practice\home.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+   <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+ </svg> Home</a> </li>
+          <li ><a href="F:\HTML\practice\About.html" class="button">About</a> </li>
+          <li ><a href="#" class="button">Blog</a> </li>
+          <li ><a href="F:\HTML\practice\shop_frt.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+          </svg> Shop</a> </li>
+          <li ><a href="F:\HTML\practice\contact.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+   <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+ </svg> Contact</a> </li>
+ <li ><a href="#" class="button" onclick="pt()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+ <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg> Deliver to</a> </li>
+          <li ><a href="F:\HTML\practice\login_1.html" class="button">Login/Sign up</a></li>
+          <li id="cart"><a href="F:\HTML\practice\cart.html" class="button">cart<i class="fas fa-shopping-cart" style="font-size:20px"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <img src="F:\HTML\img\img_4.jpg" alt="" id="banner5">
+    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1650649423_B_W.jpg" alt="" id="banner6">
+    <img src="" alt="">
+    <div class="box1">
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_frt.html" target="_blank"> <img src="F:\HTML\img\fruits.png" alt="" class="catalog"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_veg.html" target="_blank"><img src="F:\HTML\img\veg.png" alt="" class="catalog" id="veg"></a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_drinks.html" target="_blank"> <img src="F:\HTML\img\softdrinks.png" alt="" class="catalog" id="veg"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_ard.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-11.png" alt="" class="catalog" id="atta"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_masala.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-12.png" alt="" class="catalog" id="spices"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_dairy.html" target="_blank"> <img src="F:\HTML\img\dairy.png" alt="" class="catalog" id="dairy"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_biscut.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-4_1.png" alt="" class="catalog" id=""> </a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- products images -->
+   <div class="box">
+    All Products <br><br>
+
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490057054/hamdard-roohafza-sharbat-syrup-750-ml-product-images-o490057054-p490057054-0-202203151750.jpg" alt="" height="110"></a><br>
+    <p>roohafza-750-ml</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490005200/7up-2-l-product-images-o490005200-p490005200-0-202203170958.jpg" alt="" height="110"></a><br>
+    <p>7up-2-l-lt</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491086175/tropicano-slice-mango-drink-1-75-l-product-images-o491086175-p491086175-0-202203170338.jpg" alt="" height="110"></a><br>
+    <p>tropicano-slice-mango</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490004176/pepsi-2-l-product-images-o490004176-p490004176-0-202203170742.jpg" alt="" height="110"></a><br>
+    <p>pepsi-2-l-lt</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491126479/sprite-1-75-l-product-images-o491126479-p491126479-0-202203151146.jpg" alt="" height="110"></a><br>
+    <p>sprite-1-75-ml</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹79.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491126478/thums-up-1-75-l-product-images-o491126478-p491126478-0-202203150104.jpg" alt="" height="110"></a><br>
+    <p>thums-up-1-75-ml</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹79.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490249967/b-natural-guava-gush-juice-1-l-product-images-o490249967-p490249967-0-202203151704.jpg" alt="" height="110"></a><br>
+    <p>guava-gush-juice</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490249972/b-natural-apple-juice-1-l-0-20220404.jpg" alt="" height="110"></a><br>
+    <p>natural-apple-juice</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490001803/thumps-up-600-ml-product-images-o490001803-p490001803-0-202203170321.jpg" alt="" height="110"></a><br>
+    <p>thumps-up-600-ml</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹40</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490001800/sprite-600-ml-product-images-o490001800-p490001800-0-202203170616.jpg" alt="" height="110"></a><br>
+    <p>sprite-600-ml</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹40.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490001987/real-fruit-power-mixed-fruit-juice-1-l-product-images-o490001987-p490001987-0-202203170837.jpg" alt="" height="110"></a><br>
+    <p>real-mixed-fruit-juice</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490023055/rasna-insta-orange-instant-drink-powder-750-g-pouch-product-images-o490023055-p490023055-0-202203141901.jpg" alt="" height="110"></a><br>
+    <p>rasna-powder-750-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490005091/red-bull-energy-drink-250-ml-can-product-images-o490005091-p490005091-0-202203170404.jpg" alt="" height="110"></a><br>
+    <p>red-bull-drink-250-ml</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹120.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490004157/tang-orange-instant-drink-mix-500-g-product-images-o490004157-p490004157-0-202203150436.jpg" alt="" height="110"></a><br>
+    <p>tang-orange-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹50.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491419456/real-fruit-power-masala-pomegranate-juice-1-l-product-images-o491419456-p491419456-0-202203170317.jpg" alt="" height="110"></a><br>
+    <p>real-pomegranate</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491551771/real-fruit-power-masala-mixed-fruit-drink-1-l-product-images-o491551771-p491551771-0-202203150523.jpg" alt="" height="110"></a><br>
+    <p>real-masala-mixed</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491419455/real-fruit-power-masala-guava-juice-1-l-product-images-o491419455-p491419455-0-202203141821.jpg" alt="" height="110"></a><br>
+    <p>real-guava-mixed</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490001805/real-fruit-power-litchi-nectar-1-l-product-images-o490001805-p490001805-0-202203151953.jpg" alt="" height="110"></a><br>
+   <p>real-fruit-litchi</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹99.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490001259/real-fruit-power-orange-juice-1-l-product-images-o490001259-p490001259-0-202203151008.jpg" alt="" height="110"></a><br>
+   <p>real-fruit-oranage</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹99.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490001985/real-fruit-power-guava-nectar-1-l-product-images-o490001985-p490001985-0-202203151748.jpg" alt="" height="110"></a><br>
+   <p>real-fruit-nectar</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹99.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490126726/glulcon-d-orange-1-kg-product-images-o490126726-p490126726-0-202203151954.jpg" alt="" height="110"></a><br>
+   <p>glulcon-d-orange-1kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹99.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490001383/tropicana-guava-delight-fruit-juice-1-l-product-images-o490001383-p490001383-0-202203151051.jpg" alt="" height="110"></a><br>
+   <p>tropicana-guava</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹99.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490005105/frooti-mango-drink-2-l-product-images-o490005105-p490005105-0-202203150031.jpg" alt="" height="110"></a><br>
+   <p>frooti-mango-drink</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹89.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490809342/thums-up-300-ml-can-product-images-o490809342-p490809342-0-202203171009.jpg" alt="" height="110"></a><br>
+   <p>thums-up-300-ml</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹20.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>  <!-- main div hai box -->
+
+<footer>
+  <a href="#"class="af">FAQ</a>
+  <a href="#"class="af">Contact Us</a>
+  <a href="#"class="af">Terms of Use</a>
+  <a href="#"class="af">Privacy Policy</a>
+  <a href="#"class="af">Refund Policy</a>
+  <a href="#"class="af">&copy; 2022 | Mandi.com | full right reserved</a>
+</footer>
+  </body>
+</html>

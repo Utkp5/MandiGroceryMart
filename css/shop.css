@@ -1,0 +1,204 @@
+/* constant */
+.logo
+{
+  position: sticky;
+  top: 0;
+  width: 7%;
+}
+nav ul li a
+{
+  text-decoration: none;
+  color: black;
+}
+ul
+{
+  list-style: none;
+  padding-right: 17px;
+}
+nav ul li
+{
+  display: inline-block;
+
+}
+.content
+{
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    padding: 4px;
+    margin: -12px;
+}
+nav
+{
+  float: right;
+  display: inline-block;
+  margin-top: 2%;
+  background-color:
+}
+ul a
+{
+  padding-right: 10px;
+  font-size: larger;
+  font-weight: bold;
+  margin: 29px;
+}
+.button:hover
+{
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+nav
+{
+  position: sticky;
+  top: 27px;
+}
+
+/* constant */
+
+
+.box
+{
+  margin: 8% 3%;
+}
+.cnt
+{
+  font-size: 14px;
+  font-family: monospace;
+  margin-left: 7px;
+}
+.images
+{
+  display: inline-block;
+  margin-left: 2%;
+  border: 1px solid gray;
+  padding: 33px 36px 18px 36px;
+  border-radius: 7px;
+  margin-top: 4%;
+  width: 9em;
+}
+.ad2cart1
+{
+  font-size: 15px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  background-color: crimson;
+  color: white;
+}
+.ad2cart
+{
+  margin-top: 11px;
+}
+.ad2cart1:hover
+{
+
+  box-shadow: black 0px 7px 29px 0px;
+
+}
+
+
+.box1
+{
+  margin-top: 4%;
+}
+.imgselect
+{
+  display: inline-block;
+  margin: 0px 43px;
+}
+.catalog
+{
+  width: 100px;
+}
+#veg
+{
+  height: 104px;
+}
+#atta #spices
+{
+  height: .5%;
+}
+#dairy
+{
+  margin-bottom: 7px;
+}
+
+/* banner */
+
+.banner
+{
+  margin: 2%;
+  width: 86em;
+  margin-left: -19px;
+}
+#banner1
+{
+  width: 31em;
+  margin-top: -11px;
+  margin-left: 7px;
+}
+#banner2
+{
+  width: 48em;
+}
+#banner3
+{
+  width: 85em;
+  margin-left: -1em;
+}
+#banner5
+{
+  width: 21em;
+}
+#banner6
+{
+  width: 62em;
+}
+#banner7,#banner8,#banner9,#banner10
+{
+  width: 85em;
+  margin-left: -8px;
+}
+/* banner */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer
+{
+  background-color: black;
+  height: 3em;
+  margin: -9px;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+footer a
+{
+  text-decoration: none;
+  color: white;
+}
+.af
+{
+  font-size: 19px;
+  padding: 25px;
+  font-family: sans-serif;
+}
+ /* footer */

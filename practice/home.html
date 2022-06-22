@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mandi | Home</title>
+    <link rel="stylesheet" href="F:\HTML\css\home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript">
+      function pt() {
+        var b=123456;
+        var a = prompt("Please Enter your pin code");
+        if (a==null) {
+          alert("Please Enter your Pin code")
+        }
+        else if (a.length>6 ||  a.length<=5 || a.length<=4 || a.length<=3 || a.length<=2 || a.length<=1 || a.length<=0) {
+          alert("Please Enter 6 Digit Pin code")
+        }
+        else if (a==0) {
+          alert("Please Enter correct pin code");
+        }
+        else {
+          confirm("Do you wnat to confirm this pin code"+" "+a);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="content">
+      <a href="F:\HTML\index.html"><img src="F:\HTML\img\logo_1.png" class="logo" alt="" width="150" ></a>
+      <nav>
+        <ul>
+          <li ><a href="F:\HTML\practice\home.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+   <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+ </svg> Home</a> </li>
+          <li ><a href="F:\HTML\practice\About.html" class="button">About</a> </li>
+          <li ><a href="#" class="button">Blog</a> </li>
+          <li ><a href="F:\HTML\practice\shop_frt.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+          </svg> Shop</a> </li>
+          <li ><a href="F:\HTML\practice\contact.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+   <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+ </svg> Contact</a> </li>
+ <li ><a href="#" class="button" onclick="pt()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+ <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg> Deliver to</a> </li>
+          <li ><a href="F:\HTML\practice\login_1.html" class="button">Login/Sign up</a></li>
+          <li id="cart"><a href="F:\HTML\practice\cart.html" class="button">cart<i class="fas fa-shopping-cart" style="font-size:20px"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <img src="F:\HTML\img\banner_1.png" alt="" id="banner_1"><br><br><br>
+    <div class="box">
+      <span id="dt">SEE OUR LATEST</span>
+      <h2 id="dd">SHOP BY CATEGORY</h2>
+    </div><br><br><br>
+    <div class="box1">
+      <div class="item_1">
+        <a href="#" class="link"><img src="https://cdn.shopify.com/s/files/1/0011/9868/6266/files/1_093494be-e786-4b43-9cb7-617d500de16d.png?v=1621424516" alt="" class="p1"><p class="p">All Items</p></a>
+      </div>
+      <div class="item_2">
+        <a href="file:///F:/HTML/practice/shop_frt.html" class="link"> <img src="https://cdn.shopify.com/s/files/1/0011/9868/6266/files/2_6034ea50-6360-4f11-b422-0738df4de939.png?v=1621424756" alt=""><p class=" p2">Fresh Fruits</p></a>
+      </div>
+      <div class="item_3">
+        <a href="file:///F:/HTML/practice/shop_veg.html" class="link"> <img src="https://cdn.shopify.com/s/files/1/0011/9868/6266/files/3_289c13c8-5a50-4fef-90a9-3bd7bb560ee2.png?v=1621424776" alt=""><p class="p">Vegetables</p></a>
+      </div>
+      <div class="item_4">
+        <a href="file:///F:/HTML/practice/shop_ard.html" class="link"> <img src="https://cdn.shopify.com/s/files/1/0011/9868/6266/files/5_988e816f-29b9-4654-bfbc-186a43ea1a24.png?v=1621424816" alt=""><p class="p">Rice Wheat</p></a>
+      </div>
+    </div>
+    <br><br><br><br>
+    <img src="https://sabjidekho.com//image/promo_banner.jpg" alt="" style="width: 86em; margin: 3em -1em;">
+    <div class="box2">
+      <div class="box2_item">
+        &nbsp&nbsp&nbsp<img src="F:\HTML\img\banner_2.png" alt="" style="width: 82em">
+        <div class="" style="margin: 1em 1em">
+        <img src="F:\HTML\img\banner_3.png" alt="" style="width: 40em">&nbsp&nbsp
+        <img src="F:\HTML\img\banner_4.png" alt="" style="width: 39.9em">
+      </div>
+      </div>
+    </div><br><br>
+
+    <!-- content -->
+    <div class="grid">
+        <div class="grid__item">
+            <div class="grid__text">
+              <h1 class="h2texthead">Buy High Quality Organic Foods Online</h1>
+            </div>
+            <div class="">
+              The 21st-century definition of sustainability is the ability of the earth (and all its resources) and humanity to coexist successfully. In a nutshell, we need to meet or fulfill our own needs without compromising the opportunity for our future generations to meet their own needs by not exhausting the earth's natural resources.
+              The sustainability of food goes beyond how it is produced. In other words, it depends on how the food is created, distributed, packaged, and consumed. During the last few years, the term 'food sustainability has begun popping up more and more. Although it is essential to think about the planet, it is also a trend that is becoming increasingly popular among home cooks, food businesses, and customers alike.
+              Many food companies have chosen to source their food locally and practice sustainable practices in response to environmental concerns and societal demands. I Say Organic is one of them; here, you can order organic food online. We believe in providing you with good food not just in taste and texture but also ensure the process of making it is as natural and pure as it can be. We aim to provide this food to everyone and to become synonymous with the idea of people wanting to buy organic food from Mandi.
+            </div><br>
+            <div class="">
+              <h3 class="h3">FRUITS AND VEGETABLES</h3>
+              Organic fruits and vegetables are essential to a healthy diet. They provide a lot of vitamins and minerals, and for many people, they are the only source of a particular vitamin or mineral. The best way to get the most out of your fruit and vegetable intake is to eat a variety of fresh produce throughout the week. You can now taste the best quality of organic fruits online Delhi and organic vegetables online Delhi from Mandi. Both of these are our daily needs used in different dishes; these have become part of our daily diet directly or indirectly. Therefore it is necessary to consume organic and sustainable fruits and vegetables. Buy organic & sustainably grown fruits online and Sustainably grown vegetables online from our website. Organic vegetables online in Delhi are perfect for making your cooking and food chemical-free. If you want to try organic fruits and vegetables in Delhi, Mandi is one of the best places to go with.
+            </div><br>
+            <div class="">
+              <h3 class="h3">COOKING ESSENTIALS</h3>
+              Cooking is an art, but what are the paintbrushes used to create this art? Oils, spices, salt & vinegar, and many more! These ingredients are used to add fuel to your fire. Mandi provides good quality cooking essentials products online, and organic groceries Delhi are entirely natural and sustainable. We are the solution to your problem of finding sustainably grown salts & vinegar online and organic dried spices online. Our wide range of different flavoured and ingredients oils and sweeteners make us one of the best places to buy organic cooking oils & desi ghee along with to buy organic sweeteners online. We have different flavoured honey online, jaggery powder online, and organic brown sugar.
+            </div><br>
+            <div class="">
+              <h3 class="h3">BEVERAGES</h3>
+              We all need fluids to survive, but not all liquids are created equal when it comes to quenching our thirst. Some are designed to be sipped, while others are meant to be savoured. In a world of more than a thousand beverage choices, it can be challenging to find the right one for you. So whether you are looking for a refreshing drink to cool you down on a hot day or a sweet and flavorful treat to satisfy a sugar craving, there are a variety of sustainably grown beverages online for you at Mandi. From Sustainably grown concentrates online , beetroot kanji online to healthy soups online, Mandi has it all to suppress your thirst with its variety of flavours. Now buy organic coffee online at the best price from our website.
+            </div><br>
+            <div class="">
+              <h3 class="h3">WHY SHOP FROM Mandi</h3>
+              At Mandi grocery Mart, we strive to serve the purest, most natural form of food available. As constant innovators and promoters of a chemical-free future, we take pride in offering only what is desirable to be served at home. For to keep our promise, we conduct frequent lab tests and audits. We exist to be in service of the earth and ensure only that food that is good for your body, the farmer, and the planet reaches your doorstep
+            </div>
+          </div>
+        </div><br><br>
+
+    <footer>
+      <a href="#"class="af">FAQ</a>
+      <a href="#"class="af">Contact Us</a>
+      <a href="#"class="af">Terms of Use</a>
+      <a href="#"class="af">Privacy Policy</a>
+      <a href="#"class="af">Refund Policy</a>
+      <a href="#"class="af">&copy; 2022 | Mandi.com | full right reserved</a>
+    </footer>
+  </body>
+</html>

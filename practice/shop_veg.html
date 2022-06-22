@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mandi | Shop</title>
+    <link rel="stylesheet" href="F:\HTML\css\shop.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript">
+      function pt() {
+        var b=123456;
+        var a = prompt("Please Enter your pin code");
+        if (a==null) {
+          alert("Please Enter your Pin code")
+        }
+        else if (a.length>6 ||  a.length<=5 || a.length<=4 || a.length<=3 || a.length<=2 || a.length<=1 || a.length<=0) {
+          alert("Please Enter 6 Digit Pin code")
+        }
+        else if (a==0) {
+          alert("Please Enter correct pin code");
+        }
+        else {
+          confirm("Do you wnat to confirm this pin code"+" "+a);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="content">
+      <a href="F:\HTML\index.html"><img src="F:\HTML\img\logo_1.png" class="logo" alt="" width="150" ></a>
+      <nav>
+        <ul>
+          <li ><a href="F:\HTML\practice\home.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+   <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+ </svg> Home</a> </li>
+          <li ><a href="F:\HTML\practice\About.html" class="button">About</a> </li>
+          <li ><a href="#" class="button">Blog</a> </li>
+          <li ><a href="F:\HTML\practice\shop_frt.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+          </svg> Shop</a> </li>
+          <li ><a href="F:\HTML\practice\contact.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+   <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+ </svg> Contact</a> </li>
+ <li ><a href="#" class="button" onclick="pt()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+ <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg> Deliver to</a> </li>
+          <li ><a href="F:\HTML\practice\login_1.html" class="button">Login/Sign up</a></li>
+          <li id="cart"><a href="F:\HTML\practice\cart.html" class="button">cart<i class="fas fa-shopping-cart" style="font-size:20px"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <img src="https://www.jiomart.com/images/category/229/fresh-vegetables-20200704.jpg" alt="" id="banner3">
+    <div class="box1">
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_frt.html" target="_blank"> <img src="F:\HTML\img\fruits.png" alt="" class="catalog"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_veg.html" target="_blank"><img src="F:\HTML\img\veg.png" alt="" class="catalog" id="veg"></a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_drinks.html" target="_blank"> <img src="F:\HTML\img\softdrinks.png" alt="" class="catalog" id="veg"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_ard.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-11.png" alt="" class="catalog" id="atta"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_masala.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-12.png" alt="" class="catalog" id="spices"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_dairy.html" target="_blank"> <img src="F:\HTML\img\dairy.png" alt="" class="catalog" id="dairy"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_biscut.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-4_1.png" alt="" class="catalog" id=""> </a>
+      </div>
+    </div>
+    <!-- products images -->
+   <div class="box">
+    All Products <br><br>
+
+   <div class="images">
+    <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/391306a.jpg" alt="" height="110"></a><br>
+    <p>Onion 5 kg </p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹100.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/333785a.jpg" alt="" height="110"></a><br>
+    <p>potato 5 kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹80.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590000174/lauki-bottle-gourd-1-kg-product-images-o590000174-p590000174-0-202203170512.jpg" alt="" height="110"></a><br>
+    <p>bottle-gourd</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹30.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/425780a.jpg" alt="" height="110"></a><br>
+    <p>Pointed Gourd 1kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹50.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/339152a.jpg" alt="" height="110"></a><br>
+    <p>cabbage 1 kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹10.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/445675a.jpg" alt="" height="110"></a><br>
+    <p>baby tomatos 1kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹59.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003548/cucumber-500-g-product-images-o590003548-p590003548-0-202203152002.jpg" alt="" height="110"></a><br>
+    <p>cucumber 500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹40.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src=" https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/17748a.jpg " alt="" height="110"></a><br>
+    <p>lemon 1kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹200.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/423735a.jpg" alt="" height="110"></a><br>
+    <p>Green chilli</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹30.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/3885a.jpg" alt="" height="110"></a><br>
+    <p>Arbi(Colocasia)500g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹49.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003550/bhendi-okra-500-g-product-images-o590003550-p590003550-0-202203170339.jpg" alt="" height="110"></a><br>
+    <p>bhendi-okra-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003546/carrot-orange-500-g-product-images-o590003546-p590003546-0-202203151011.jpg" alt="" height="110"></a><br>
+    <p>carrot-orange-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹90.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003662/green-capsicum-500-g-product-images-o590003662-p590003662-0-202203151617.jpg" alt="" height="110"></a><br>
+    <p>green-capsicum-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹60.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590000138/sweet-potato-500-g-product-images-o590000138-p590000138-0-202203150443.jpg" alt="" height="110"></a><br>
+    <p>sweet-potato-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹44.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003540/beetroot-500-g-product-images-o590003540-p590003540-0-202203141904.jpg" alt="" height="110"></a><br>
+    <p>beetroot-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹50.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003537/cauliflower-1-pc-approx-600-g-1000-g-product-images-o590003537-p590003537-0-202203170515.jpg" alt="" height="110"></a><br>
+    <p>cauliflower-1kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹90.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003544/brinjal-black-big-500-g-product-images-o590003544-p590003544-0-202203170238.jpg" alt="" height="110"></a><br>
+    <p>brinjal-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹30.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590004479/spinach-paalak-1-bunch-approx-100-g-300-g-product-images-o590004479-p590004479-0-202203170434.jpg" alt="" height="110"></a><br>
+   <p>spinach-paalak-1kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹29.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590004475/coriander-bunch-approx-50-g-200-g-product-images-o590004475-p590004475-0-202203170909.jpg" alt="" height="110"></a><br>
+   <p>coriander-1kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹29.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590001892/radish-white-1-pc-approx-80-g-150-g-product-images-o590001892-p590001892-0-202203171016.jpg" alt="" height="110"></a><br>
+   <p>radish-white-1kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹30.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003541/bitter-gourd-500-g-product-images-o590003541-p590003541-0-202203170608.jpg" alt="" height="110"></a><br>
+   <p>bitter-gourd-500-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹20.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003547/cluster-beans-500-g-product-images-o590003547-p590003547-0-202203151354.jpg" alt="" height="110"></a><br>
+   <p>cluster-beans-500-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹10.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590001264/yam-whole-per-pc-approx-900-g-1500-g-product-images-o590001264-p590049201-0-202203171136.jpg" alt="" height="110"></a><br>
+   <p>yam-whole-per</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹12.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/421703a.jpg" alt="" height="110"></a><br>
+   <p>Ginger 1kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹70.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/374984a.jpg" alt="" height="110"></a><br>
+   <p>Pumpkin 500kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹20.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>  <!-- main div hai box -->
+
+<footer>
+  <a href="#"class="af">FAQ</a>
+  <a href="#"class="af">Contact Us</a>
+  <a href="#"class="af">Terms of Use</a>
+  <a href="#"class="af">Privacy Policy</a>
+  <a href="#"class="af">Refund Policy</a>
+  <a href="#"class="af">&copy; 2022 | Mandi.com | full right reserved</a>
+</footer>
+  </body>
+</html>

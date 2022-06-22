@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mandi | Shop</title>
+    <link rel="stylesheet" href="F:\HTML\css\shop.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript">
+      function pt() {
+        var b=123456;
+        var a = prompt("Please Enter your pin code");
+        if (a==null) {
+          alert("Please Enter your Pin code")
+        }
+        else if (a.length>6 ||  a.length<=5 || a.length<=4 || a.length<=3 || a.length<=2 || a.length<=1 || a.length<=0) {
+          alert("Please Enter 6 Digit Pin code")
+        }
+        else if (a==0) {
+          alert("Please Enter correct pin code");
+        }
+        else {
+          confirm("Do you wnat to confirm this pin code"+" "+a);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="content">
+      <a href="F:\HTML\index.html"><img src="F:\HTML\img\logo_1.png" class="logo" alt="" width="150" ></a>
+      <nav>
+        <ul>
+          <li ><a href="F:\HTML\practice\home.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+   <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+ </svg> Home</a> </li>
+          <li ><a href="F:\HTML\practice\About.html" class="button">About</a> </li>
+          <li ><a href="#" class="button">Blog</a> </li>
+          <li ><a href="F:\HTML\practice\shop_frt.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+          </svg> Shop</a> </li>
+          <li ><a href="F:\HTML\practice\contact.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+   <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+ </svg> Contact</a> </li>
+ <li ><a href="#" class="button" onclick="pt()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+ <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg> Deliver to</a> </li>
+          <li ><a href="F:\HTML\practice\login_1.html" class="button">Login/Sign up</a></li>
+          <li id="cart"><a href="F:\HTML\practice\cart.html" class="button">cart<i class="fas fa-shopping-cart" style="font-size:20px"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <img src="F:\HTML\img\img_5.jpg" alt="image" id="banner1">
+    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1650453061_Paytm_910x278.jpg" alt="" id="banner2">
+    <div class="box1">
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_frt.html" target="_blank"> <img src="F:\HTML\img\fruits.png" alt="" class="catalog"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_veg.html" target="_blank"><img src="F:\HTML\img\veg.png" alt="" class="catalog" id="veg"></a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_drinks.html" target="_blank"> <img src="F:\HTML\img\softdrinks.png" alt="" class="catalog" id="veg"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_ard.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-11.png" alt="" class="catalog" id="atta"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_masala.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-12.png" alt="" class="catalog" id="spices"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_dairy.html" target="_blank"> <img src="F:\HTML\img\dairy.png" alt="" class="catalog" id="dairy"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_biscut.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-4_1.png" alt="" class="catalog" id=""> </a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- products images -->
+   <div class="box">
+    All Products <br><br>
+
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590000025/orange-imported-1-kg-product-images-o590000025-p590000025-0-202203171007.jpg" alt="" height="110"></a><br>
+    <p>Orange Imported 1kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹104.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590000448/mosambi-1-kg-product-images-o590000448-p590000448-0-202203170909.jpg" alt="" height="110"></a><br>
+    <p>Mosambi Imported</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹100.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590000191/raw-mango-500-g-product-images-o590000191-p590000191-0-202203151016.jpg" alt="" height="110"></a><br>
+    <p>raw-mango-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹110.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590001247/papaya-each-approx-800-g-1600-g-product-images-o590001247-p590001247-0-202203170247.jpg" alt="" height="110"></a><br>
+    <p>papaya Imported 1 kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹60.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590001887/musk-melon-1-pc-approx-600-g-900-g-product-images-o590001887-p591217775-0-202204111800.jpg" alt="" height="110"></a><br>
+    <p>musk-melon 1 kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹80.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590041413/watermelon-kiran-big-1-pc-approx-2800-g-4000-g-0-20220415.jpg" alt="" height="110"></a><br>
+    <p>Watermelon 1 kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹50.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590009785/tender-coconut-3-pcs-product-images-o590009785-p591041745-0-202203171040.jpg" alt="" height="110"></a><br>
+    <p>tender-coconut-3-pcs</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹60.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590007689/dragonfruit-per-pc-approx-280-g-450-g-product-images-o590007689-p590007689-0-202203170904.jpg" alt="" height="110"></a><br>
+    <p>dragonfruit-per-pc</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹120.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590000452/sharad-seedless-grapes-1-kg-product-images-o590000452-p590116963-0-202203171004.jpg" alt="" height="110"></a><br>
+    <p>seedless-grapes</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹40.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590001268/pomegranate-economy-6-pcs-pack-product-images-o590001268-p590485022-0-202203150746.jpg" alt="" height="110"></a><br>
+    <p>pomegranate-eco</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹100.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590000070/pineapple-queen-1-pc-approx-700-g-1200-g-product-images-o590000070-p590000070-0-202203170357.jpg" alt="" height="110"></a><br>
+    <p>pineapple-queen</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹90.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590009674/kiwi-imported-3-pcs-pack-product-images-o590009674-p590317377-0-202203171126.jpg" alt="" height="110"></a><br>
+    <p>kiwi-imported-3-pcs</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹130.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590006806/mosambi-3-kg-pack-product-images-o590006806-p590032918-0-202203150754.jpg" alt="" height="110"></a><br>
+    <p>mosambi-3-kg-pack</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹200.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003435/thai-guava-2-pcs-approx-550-g-700-g-product-images-o590003435-p590034336-0-202203170244.jpg" alt="" height="110"></a><br>
+    <p>thai-guava-2-pcs</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹99.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590003514/mulberry-200-g-product-images-o590003514-p590362827-0-202203142032.jpg" alt="" height="110"></a><br>
+    <p>mulberry-200-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹89.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/590001270/pears-green-imported-3-pcs-pack-product-images-o590001270-p590040932-0-202203170454.jpg" alt="" height="110"></a><br>
+    <p>pears-green-imported</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹79.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/470636a.jpg" alt="" height="110"></a><br>
+    <p>Banana 12 pcs</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹60.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+  <div class="images">
+   <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/462106a.jpg" alt="" height="110"></a><br>
+   <p>Apple Imported 1 kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹80.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/336515a.jpg" alt="" height="110"></a><br>
+   <p>Green-Apple 1 kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹130.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/339150a.jpg" alt="" height="110"></a><br>
+   <p>Sun Melon 1kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹90.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/4943a.jpg" alt="" height="110"></a><br>
+   <p>coconut 1 kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹40.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.bigbasket.com/media/uploads/p/mm/20001095_14-fresho-apricot-dried.jpg" alt="" height="110"></a><br>
+   <p>dried-Apricot 1 kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹99.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.bigbasket.com/media/uploads/p/mm/10000592_10-fresho-sugarcane.jpg" alt="" height="110"></a><br>
+   <p>sugarcane 1kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹49.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://frugivore.s3.amazonaws.com/media/package/img_one/2019-08-28/51_nDDRWmb.jpg" alt="" height="110"></a><br>
+   <p>Apricot-india 1 kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹200.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>  <!-- main div hai box -->
+
+<footer>
+  <a href="#"class="af">FAQ</a>
+  <a href="#"class="af">Contact Us</a>
+  <a href="#"class="af">Terms of Use</a>
+  <a href="#"class="af">Privacy Policy</a>
+  <a href="#"class="af">Refund Policy</a>
+  <a href="#"class="af">&copy; 2022 | Mandi.com | full right reserved</a>
+</footer>
+  </body>
+</html>

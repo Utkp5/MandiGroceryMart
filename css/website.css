@@ -1,0 +1,128 @@
+img
+{
+  position: sticky;
+  top: 0;
+  width: 7%;
+}
+nav ul li a
+{
+  text-decoration: none;
+  color: black;
+}
+ul
+{
+  list-style: none;
+  padding-right: 17px;
+}
+nav ul li
+{
+  display: inline-block;
+
+}
+.content
+{
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    padding: 4px;
+    margin: -12px;
+}
+nav
+{
+  float: right;
+  display: inline-block;
+  margin-top: 2%;
+  background-color:
+}
+ul a
+{
+  padding-right: 10px;
+  font-size: larger;
+  font-weight: bold;
+  margin: 29px;
+}
+.button:hover
+{
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+nav
+{
+  position: sticky;
+  top: 27px;
+}
+.p
+{
+  font-family: "Times New Roman";
+  font-size: 1.2rem;
+}
+.link
+{
+  color: yellowgreen;
+
+}
+#abm
+{
+    margin-top: 5%;
+    font-weight: bold;
+    color: crimson;
+    font-size: 2.5em;
+}
+#p3
+{
+  margin-top: -18px;
+  font-size: 1.5rem;
+  color: crimson;
+  margin-bottom: -5px;
+}
+#p1
+{
+  font-size: 18px;
+  color: gray;
+}
+.pcolor
+{
+  color: crimson;
+  font-size: 1.5rem;
+}
+.p5
+{
+  font-size: 18px;
+  color: gray;
+}
+.content2
+{
+ margin-left: 46px;
+}
+.hr
+{
+    width: 95%;
+    height: 2px;
+    background-color: gray;
+}
+.content3
+{
+ margin-left: 46px;
+}
+footer
+{
+  background-color: black;
+  height: 3em;
+  margin: -9px;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+footer a
+{
+  text-decoration: none;
+  color: white;
+}
+.af
+{
+  font-size: 19px;
+  padding: 25px;
+  font-family: sans-serif;
+}

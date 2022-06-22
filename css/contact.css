@@ -1,0 +1,118 @@
+.logo
+{
+  position: sticky;
+  top: 0;
+  width: 7%;
+}
+nav ul li a
+{
+  text-decoration: none;
+  color: black;
+}
+ul
+{
+  list-style: none;
+  padding-right: 17px;
+}
+nav ul li
+{
+  display: inline-block;
+
+}
+.content
+{
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    padding: 4px;
+    margin: -12px;
+}
+nav
+{
+  float: right;
+  display: inline-block;
+  margin-top: 2%;
+  background-color:
+}
+ul a
+{
+  padding-right: 10px;
+  font-size: larger;
+  font-weight: bold;
+  margin: 29px;
+}
+.button:hover
+{
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+nav
+{
+  position: sticky;
+  top: 27px;
+}
+
+/* contact */
+.details
+{
+  display: inline-block;
+  margin: 9% 5%;
+}
+#contact_banner
+{
+  width: 85em;
+    margin-left: -1%;
+    margin-top: 1%;
+}
+/* contact */
+/* footer */
+footer
+{
+  background-color: black;
+  height: 3em;
+  margin: -9px;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+footer a
+{
+  text-decoration: none;
+  color: white;
+}
+.af
+{
+  font-size: 19px;
+  padding: 25px;
+  font-family: sans-serif;
+}
+/* footer */
+.form
+{
+  margin: 2% 10%;
+}
+.name
+{
+  width: 38em;
+  height: 3em;
+}
+#submit
+{
+width: 77em;
+}
+#button
+{
+  width: 10em;
+  padding: 8px;
+  text-align: revert;
+  margin: 1% 42%;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+#h2
+{
+  margin: 0% 42% 3% 41%;
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mandi | Shop</title>
+    <link rel="stylesheet" href="F:\HTML\css\shop.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript">
+      function pt() {
+        var b=123456;
+        var a = prompt("Please Enter your pin code");
+        if (a==null) {
+          alert("Please Enter your Pin code")
+        }
+        else if (a.length>6 ||  a.length<=5 || a.length<=4 || a.length<=3 || a.length<=2 || a.length<=1 || a.length<=0) {
+          alert("Please Enter 6 Digit Pin code")
+        }
+        else if (a==0) {
+          alert("Please Enter correct pin code");
+        }
+        else {
+          confirm("Do you wnat to confirm this pin code"+" "+a);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="content">
+      <a href="F:\HTML\index.html"><img src="F:\HTML\img\logo_1.png" class="logo" alt="" width="150" ></a>
+      <nav>
+        <ul>
+          <li ><a href="F:\HTML\practice\home.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+   <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+ </svg> Home</a> </li>
+          <li ><a href="F:\HTML\practice\About.html" class="button">About</a> </li>
+          <li ><a href="#" class="button">Blog</a> </li>
+          <li ><a href="F:\HTML\practice\shop_frt.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+          </svg> Shop</a> </li>
+          <li ><a href="F:\HTML\practice\contact.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+   <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+ </svg> Contact</a> </li>
+ <li ><a href="#" class="button" onclick="pt()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+ <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg> Deliver to</a> </li>
+          <li ><a href="F:\HTML\practice\login_1.html" class="button">Login/Sign up</a></li>
+          <li id="cart"><a href="F:\HTML\practice\cart.html" class="button">cart<i class="fas fa-shopping-cart" style="font-size:20px"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <img src="F:\HTML\img\oil.png" alt="" id="banner8">
+    <div class="box1">
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_frt.html" target="_blank"> <img src="F:\HTML\img\fruits.png" alt="" class="catalog"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_veg.html" target="_blank"><img src="F:\HTML\img\veg.png" alt="" class="catalog" id="veg"></a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_drinks.html" target="_blank"> <img src="F:\HTML\img\softdrinks.png" alt="" class="catalog" id="veg"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_ard.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-11.png" alt="" class="catalog" id="atta"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_masala.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-12.png" alt="" class="catalog" id="spices"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_dairy.html" target="_blank"> <img src="F:\HTML\img\dairy.png" alt="" class="catalog" id="dairy"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_biscut.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-4_1.png" alt="" class="catalog" id=""> </a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- products images -->
+   <div class="box">
+    All Products <br><br>
+
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490005440/everest-turmeric-powder-200-g-product-images-o490005440-p490005440-0-202203141822.jpg" alt="" height="110"></a><br>
+    <p>everest-turmeric-powder-200-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹65.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000109/everest-tikhalal-chilli-powder-100-g-product-images-o490000109-p490000109-0-202203151655.jpg" alt="" height="110"></a><br>
+    <p>everest-tikhalal-chilli-powder-100-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000106/everest-kashmirilal-chilli-powder-100-g-product-images-o490000106-p490000106-0-202203170622.jpg" alt="" height="110"></a><br>
+    <p>everest-kashmirilal-chilli-powder-100-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490005436/everest-coriander-powder-200-g-product-images-o490005436-p490005436-0-202203151356.jpg" alt="" height="110"></a><br>
+    <p>everest-coriander-powder-200-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹65.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490012741/everest-chicken-masala-100-g-product-images-o490012741-p490012741-0-202203170734.jpg" alt="" height="110"></a><br>
+    <p>everest-chicken-masala-100-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490010549/everest-kitchen-king-masala-50-g-product-images-o490010549-p490010549-0-202203150115.jpg" alt="" height="110"></a><br>
+    <p>everest-kitchen-king-masala-50-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹10.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000098/everest-sabji-masala-50-g-product-images-o490000098-p490000098-0-202203150327.jpg" alt="" height="110"></a><br>
+    <p>everest-sabji-masala-50-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹10.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000170/everest-pav-bhaji-masala-100-g-product-images-o490000170-p490000170-0-202203170908.jpg" alt="" height="110"></a><br>
+    <p>everest-pav-bhaji-masala-100-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000086/everest-shahi-biryani-masala-50-g-product-images-o490000086-p490000086-0-202203152306.jpg" alt="" height="110"></a><br>
+    <p>everest-shahi-biryani-masala-50-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹10.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000105/everest-garam-masala-100-g-product-images-o490000105-p490000105-0-202203170559.jpg" alt="" height="110"></a><br>
+    <p>everest-garam-masala-100-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹134.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000172/everest-kitchen-king-masala-100-g-product-images-o490000172-p490000172-0-202203170227.jpg" alt="" height="110"></a><br>
+    <p>everest-kitchen-king-masala-100-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹134.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000108/everest-sambhar-masala-100-g-product-images-o490000108-p490000108-0-202203170841.jpg" alt="" height="110"></a><br>
+    <p>everest-sambhar-masala-100-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490005435/everest-chaat-masala-100-g-product-images-o490005435-p490005435-0-202203171039.jpg" alt="" height="110"></a><br>
+    <p>everest-chaat-masala-100-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000087/everest-black-pepper-powder-50-g-product-images-o490000087-p490000087-0-202203141826.jpg" alt="" height="110"></a><br>
+    <p>everest-black-pepper-powder-50-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490005438/everest-meat-masala-100-g-product-images-o490005438-p490005438-0-202203170747.jpg" alt="" height="110"></a><br>
+    <p>everest-meat-masala-100-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000173/everest-chhole-masala-100-g-product-images-o490000173-p490000173-0-202203170743.jpg" alt="" height="110"></a><br>
+    <p>everest-chhole-masala-100-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000100/everest-tea-masala-50-g-product-images-o490000100-p490000100-0-202203170402.jpg" alt="" height="110"></a><br>
+    <p>everest-tea-masala-50-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹34.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000094/everest-pani-puri-masala-50-g-product-images-o490000094-p490000094-0-202203170506.jpg" alt="" height="110"></a><br>
+   <p>everest-pani-puri-masala-50-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹34.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490427683/suhana-pav-bhaji-masala-50-g-product-images-o490427683-p490427683-0-202203141915.jpg" alt="" height="110"></a><br>
+   <p>suhana-pav-bhaji-masala-50-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹34.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490427686/suhana-biryani-masala-50-g-product-images-o490427686-p490427686-0-202203171136.jpg" alt="" height="110"></a><br>
+   <p>suhana-biryani-masala-50-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹10.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491410098/gm-foods-soya-chaap-masala-100-g-product-images-o491410098-p491410098-0-202203170844.jpg" alt="" height="110"></a><br>
+   <p>gm-foods-soya-chaap-masala-100-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹34.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491281109/suhana-misal-masala-50-g-product-images-o491281109-p491281109-0-202203170612.jpg" alt="" height="110"></a><br>
+   <p>suhana-misal-masala-50-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹34.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490427685/suhana-chhole-masala-50-g-product-images-o490427685-p490427685-0-202203170335.jpg" alt="" height="110"></a><br>
+   <p>suhana-chhole-masala-50-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹10.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490577665/suhana-paneer-tikka-masala-mix-50-g-product-images-o490577665-p490577665-0-202203151823.jpg" alt="" height="110"></a><br>
+   <p>suhana-paneer-tikka-masala-mix-50-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹10.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>  <!-- main div hai box -->
+
+<footer>
+  <a href="#"class="af">FAQ</a>
+  <a href="#"class="af">Contact Us</a>
+  <a href="#"class="af">Terms of Use</a>
+  <a href="#"class="af">Privacy Policy</a>
+  <a href="#"class="af">Refund Policy</a>
+  <a href="#"class="af">&copy; 2022 | Mandi.com | full right reserved</a>
+</footer>
+  </body>
+</html>

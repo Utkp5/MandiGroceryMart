@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mandi | Shop</title>
+    <link rel="stylesheet" href="F:\HTML\css\shop.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript">
+      function pt() {
+        var b=123456;
+        var a = prompt("Please Enter your pin code");
+        if (a==null) {
+          alert("Please Enter your Pin code")
+        }
+        else if (a.length>6 ||  a.length<=5 || a.length<=4 || a.length<=3 || a.length<=2 || a.length<=1 || a.length<=0) {
+          alert("Please Enter 6 Digit Pin code")
+        }
+        else if (a==0) {
+          alert("Please Enter correct pin code");
+        }
+        else {
+          confirm("Do you wnat to confirm this pin code"+" "+a);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="content">
+      <a href="F:\HTML\index.html"><img src="F:\HTML\img\logo_1.png" class="logo" alt="" width="150" ></a>
+      <nav>
+        <ul>
+          <li ><a href="F:\HTML\practice\home.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+   <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+ </svg> Home</a> </li>
+          <li ><a href="F:\HTML\practice\About.html" class="button">About</a> </li>
+          <li ><a href="#" class="button">Blog</a> </li>
+          <li ><a href="F:\HTML\practice\shop_frt.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+          </svg> Shop</a> </li>
+          <li ><a href="F:\HTML\practice\contact.html" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+   <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+ </svg> Contact</a> </li>
+ <li ><a href="#" class="button" onclick="pt()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+ <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg> Deliver to</a> </li>
+          <li ><a href="F:\HTML\practice\login_1.html" class="button">Login/Sign up</a></li>
+          <li id="cart"><a href="F:\HTML\practice\cart.html" class="button">cart<i class="fas fa-shopping-cart" style="font-size:20px"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <img src="F:\HTML\img\ard.png" alt="" id="banner7">
+    <div class="box1">
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_frt.html" target="_blank"> <img src="F:\HTML\img\fruits.png" alt="" class="catalog"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_veg.html" target="_blank"><img src="F:\HTML\img\veg.png" alt="" class="catalog" id="veg"></a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_drinks.html" target="_blank"> <img src="F:\HTML\img\softdrinks.png" alt="" class="catalog" id=""> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_ard.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-11.png" alt="" class="catalog" id="atta"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_masala.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-12.png" alt="" class="catalog" id="spices"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_dairy.html" target="_blank"> <img src="F:\HTML\img\dairy.png" alt="" class="catalog" id="dairy"> </a>
+      </div>
+      <div class="imgselect">
+        <a href="F:\HTML\practice\shop_biscut.html" target="_blank"> <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-03/Slice-4_1.png" alt="" class="catalog" id=""> </a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- products images -->
+   <div class="box">
+    All Products <br><br>
+
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000041/aashirvaad-whole-wheat-atta-10-kg-product-images-o490000041-p490000041-0-202203151143.jpg" alt="" height="110"></a><br>
+    <p>Aashirvaad-atta-10kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹350.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000041/aashirvaad-whole-wheat-atta-10-kg-product-images-o490000041-p490000041-0-202203151143.jpg" alt="" height="110"></a><br>
+    <p>aashirvaad-atta-5-kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹250.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490005641/aashirvaad-select-sharbati-whole-wheat-atta-5-kg-product-images-o490005641-p490005641-0-202203152300.jpg" alt="" height="110"></a><br>
+    <p>aashirvaad-atta-2-kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹100.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491349660/chakki-atta-10-kg-product-images-o491349660-p491349660-0-202203150353.jpg" alt="" height="110"></a><br>
+    <p>chakki-atta-10-kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹189.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490675817/aashirvaad-multigrain-atta-5-kg-product-images-o490675817-p490675817-0-202203170352.jpg" alt="" height="110"></a><br>
+    <p>multigrain-atta-5-kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹204.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/380156a.jpg" alt="" height="110"></a><br>
+    <p>Fortune Fresh Atta 6kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹174.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000052/fortune-sunlite-refined-sunflower-oil-1-l-product-images-o490000052-p490000052-0-202203150155.jpg" alt="" height="110"></a><br>
+    <p>refined-sunflower-oil-1lt</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹199.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/40912a.jpg" alt="" height="110"></a><br>
+    <p>Fresh Sampoorna-Atta-5 kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹184.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491389985/bhagirathi-premium-mp-sharbati-sehore-fine-ground-whole-wheat-atta-5-kg-product-images-o491389985-p590365814-0-202203170800.jpg" alt="" height="110"></a><br>
+    <p>bhagirathi-premium-mp-wheat-atta-5-kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹320.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491551198/good-life-mp-sharbatti-atta-1-kg-product-images-o491551198-p491551198-0-202203150115.jpg" alt="" height="110"></a><br>
+    <p>good-life-mp-sharbatti-atta-1-kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹104.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491187258/good-life-moong-dal-500-g-product-images-o491187258-p491187258-0-202203152121.jpg" alt="" height="110"></a><br>
+    <p>good-life-moong-dal-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹49.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491187253/good-life-chana-dal-500-g-product-images-o491187253-p491187253-0-202203170226.jpg" alt="" height="110"></a><br>
+    <p>good-life-chana-dal-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹49.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491187264/good-life-tur-dal-1-kg-product-images-o491187264-p491187264-0-202203170912.jpg" alt="" height="110"></a><br>
+    <p>good-life-turr-dal-1-kg</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹119.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491187256/good-life-masoor-dal-500-g-product-images-o491187256-p491187256-0-202203151531.jpg" alt="" height="110"></a><br>
+    <p>good-life-masoor-dal-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹134.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491187306/good-life-urad-dal-500-g-0-20220412.jpg" alt="" height="110"></a><br>
+    <p>good-life-urad-dal-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹114.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491187251/good-life-small-brown-chana-500-g-product-images-o491187251-p491187251-0-202203150756.jpg" alt="" height="110"></a><br>
+    <p>good-life-small-brown-chana-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹144.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+   <div class="images">
+    <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491187271/good-life-dal-mix-500-g-product-images-o491187271-p491187271-0-202203170207.jpg" alt="" height="110"></a><br>
+    <p>good-life-dal-mix-500-g</p>
+    <div class="cnt">
+      <small>M.R.P : </small><strong>₹194.00</strong>
+    </div>
+    <div class="ad2cart">
+      <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+    </div>
+  </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491187252/good-life-chana-dal-1-kg-product-images-o491187252-p491187252-0-202203150238.jpg" alt="" height="110"></a><br>
+   <p>good-life-chana-dal-1-kg</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹56.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491187260/good-life-chitra-rajma-500-g-0-20220329.jpg" alt="" height="110"></a><br>
+   <p>good-life-chitra-rajma-500-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹99.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491208702/good-life-dry-white-peas-500-g-product-images-o491208702-p491208702-0-202203151046.jpg" alt="" height="110"></a><br>
+   <p>good-life-dry-white-peas-500-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹142.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/491632842/good-life-pulses-mix-for-sprout-500-g-product-images-o491632842-p491632842-0-202203150108.jpg" alt="" height="110"></a><br>
+   <p>good-life-pulses-mix-for-sprout-500-g</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹158.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490005534/fortune-refined-soyabean-oil-1-l-product-images-o490005534-p490005534-0-202203151702.jpg" alt="" height="110"></a><br>
+   <p>fortune-refined-soyabean-oil-1-lt</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹205.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000056/ruchi-gold-refined-palmolein-oil-1-l-product-images-o490000056-p490000056-0-202203151356.jpg" alt="" height="110"></a><br>
+   <p>ruchi-gold-refined-palmolein-oil-1-lt</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹199.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+  <div class="images">
+   <a href="#"><img src="https://www.jiomart.com/images/product/150x150/490000057/saffola-gold-pro-healthy-lifestyle-ricebran-based-blended-oil-1-l-product-images-o490000057-p490000057-0-202203142035.jpg" alt="" height="110"></a><br>
+   <p>saffola-gold-healthy-ricebran-oil-1-lt</p>
+   <div class="cnt">
+     <small>M.R.P : </small><strong>₹200.00</strong>
+   </div>
+   <div class="ad2cart">
+     <input type="button" name="" value="Add to cart &nbsp +"  class="ad2cart1">
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>  <!-- main div hai box -->
+
+<footer>
+  <a href="#"class="af">FAQ</a>
+  <a href="#"class="af">Contact Us</a>
+  <a href="#"class="af">Terms of Use</a>
+  <a href="#"class="af">Privacy Policy</a>
+  <a href="#"class="af">Refund Policy</a>
+  <a href="#"class="af">&copy; 2022 | Mandi.com | full right reserved</a>
+</footer>
+  </body>
+</html>
