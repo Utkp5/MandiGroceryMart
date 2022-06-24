@@ -3,6 +3,7 @@ body
   background-image: url("https://marhabaworld.com/wp-content/uploads/2021/12/grocery-shopping.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
 }
 nav ul li a
 {

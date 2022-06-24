@@ -1,8 +1,10 @@
+body
+{
+  margin: 0;
+}
 img
 {
-  position: sticky;
-  top: 0;
-  width: 7%;
+  width: 6vw;
 }
 nav ul li a
 {
@@ -21,19 +23,14 @@ nav ul li
 }
 .content
 {
-    display: inline-block;
-    position: sticky;
-    top: 0;
-    background-color: aliceblue;
-    padding: 4px;
-    margin: -12px;
-}
-nav
-{
-  float: right;
-  display: inline-block;
-  margin-top: 2%;
-  background-color:
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: space-evenly;
+  /* width: 99vw; */
+  position: sticky;
+  top: 0;
+  background: aliceblue;
 }
 ul a
 {
